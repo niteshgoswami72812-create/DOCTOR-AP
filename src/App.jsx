@@ -8,14 +8,21 @@ import User from "./User"
 import Userfrm from "./Userfrm"
 import Admin from "./Admin"
 import Booking from "./Booking"
+import Hero from "./Hero"
+
  
 function App() {
   return (
    <>
 
+
+
       <Navbar />
+      <Hero/>
 
       <Routes>
+
+
         <Route path="/signup" element={<Signup />} />
 
         <Route path="/login" element={<Login />} />

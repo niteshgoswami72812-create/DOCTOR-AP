@@ -1,4 +1,12 @@
 {
-  "appointments": [],
+  "appointments": [
+    {
+      "name": "Rahul Puri",
+      "doctor": "dr ji",
+      "date": "2026-06-05",
+      "id": "NKbZtJYHlBM"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
+
